@@ -1,36 +1,36 @@
 module.exports = {
-  title: 'kolor乐园',
-  description: 'kolor的个人疯狂乐园',
+  title: 'kolor',
+  description: 'kolor的个人乐园',
   themeConfig: {
     // 导航栏
     nav: [{
-        text: 'Home',
+      text: 'Home',
+      link: '/'
+    },
+    {
+      text: 'Guide',
+      link: '/'
+    },
+    {
+      text: 'Google',
+      link: 'https://google.com'
+    },
+    {
+      text: 'Languages',
+      items: [{
+        text: 'Chinese',
         link: '/'
       },
       {
-        text: 'Guide',
+        text: 'Japanese',
         link: '/'
-      },
-      {
-        text: 'Google',
-        link: 'https://google.com'
-      },
-      {
-        text: 'Languages',
-        items: [{
-            text: 'Chinese',
-            link: '/language/chinese'
-          },
-          {
-            text: 'Japanese',
-            link: '/language/japanese'
-          }
-        ]
-      },
-      {
-        text: 'Github',
-        link: 'http://www.github.com/wykolor'
       }
+      ]
+    },
+    {
+      text: 'Github',
+      link: 'http://www.github.com/wykolor'
+    }
     ],
   },
   markdown: {
