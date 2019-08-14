@@ -11,14 +11,6 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Guide',
-        link: '/'
-      },
-      {
-        text: 'Google',
-        link: 'https://google.com'
-      },
-      {
         text: 'Languages',
         items: [{
             text: 'Chinese',
@@ -31,10 +23,15 @@ module.exports = {
         ]
       },
       {
+        text: '博客园',
+        link: 'https://www.cnblogs.com/kolor/'
+      },
+      {
         text: 'Github',
         link: 'http://www.github.com/wykolor'
       }
     ],
+
   },
   markdown: {
     lineNumbers: true // 代码块显示行号
