@@ -5,6 +5,12 @@ module.exports = {
   base: "/kolorBlog/", //github的项目名称
   dest: "./dist", // 设置输出目录
   repo: "https://wykolor.github.io/kolorBlog/",
+  head: [
+    ['link', {
+      rel: 'shortcut icon',
+      href: '/favicon.ico'
+    }]
+  ],
   themeConfig: {
     logo: "/kolor1.jpg",
     // 导航栏
