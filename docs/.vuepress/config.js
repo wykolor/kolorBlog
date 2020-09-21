@@ -35,6 +35,10 @@ module.exports = {
         ]
       },
       {
+        text: "zrcd-ant(文档)",
+        link: "/zrcd-ant/"
+      },
+      {
         text: "Github",
         link: "http://www.github.com/wykolor"
       }
@@ -51,7 +55,8 @@ module.exports = {
         "dom",
         "browser"
       ],
-      "/CSS/": ["", "boxModel", "boxModelApplication", "rowBox", "cascading"]
+      "/CSS/": ["", "boxModel", "boxModelApplication", "rowBox", "cascading"],
+      "/zrcd-ant/": [""]
     }
   },
   markdown: {
