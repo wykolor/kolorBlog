@@ -53,7 +53,8 @@ module.exports = {
         "recursion",
         "errorDesc",
         "dom",
-        "browser"
+        "browser",
+        "algorithm"
       ],
       "/CSS/": ["", "boxModel", "boxModelApplication", "rowBox", "cascading"],
       "/zrcd-ant/": [""]
