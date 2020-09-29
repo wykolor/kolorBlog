@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>chrome 浏览器的开发者工具 | kolor</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="shortcut icon" href="/kolorBlog/favicon.ico">
+    <meta name="description" content="kolor的个人站点 记录开发之程">
+    <link rel="preload" href="/kolorBlog/assets/css/0.styles.d765646a.css" as="style"><link rel="preload" href="/kolorBlog/assets/js/app.722130f1.js" as="script"><link rel="preload" href="/kolorBlog/assets/js/2.d786c6f5.js" as="script"><link rel="preload" href="/kolorBlog/assets/js/15.b2fd23fc.js" as="script"><link rel="prefetch" href="/kolorBlog/assets/js/10.2bb4afea.js"><link rel="prefetch" href="/kolorBlog/assets/js/11.644f8f62.js"><link rel="prefetch" href="/kolorBlog/assets/js/12.84a22548.js"><link rel="prefetch" href="/kolorBlog/assets/js/13.d288106a.js"><link rel="prefetch" href="/kolorBlog/assets/js/14.d2fafa55.js"><link rel="prefetch" href="/kolorBlog/assets/js/16.414f2bae.js"><link rel="prefetch" href="/kolorBlog/assets/js/17.20c09cb2.js"><link rel="prefetch" href="/kolorBlog/assets/js/18.7f97cca7.js"><link rel="prefetch" href="/kolorBlog/assets/js/19.87fcb44a.js"><link rel="prefetch" href="/kolorBlog/assets/js/20.9af6b3bd.js"><link rel="prefetch" href="/kolorBlog/assets/js/21.b5bf9ba0.js"><link rel="prefetch" href="/kolorBlog/assets/js/3.ec6f93d3.js"><link rel="prefetch" href="/kolorBlog/assets/js/4.bad5db1b.js"><link rel="prefetch" href="/kolorBlog/assets/js/5.e7877927.js"><link rel="prefetch" href="/kolorBlog/assets/js/6.6cd58de2.js"><link rel="prefetch" href="/kolorBlog/assets/js/7.4516571f.js"><link rel="prefetch" href="/kolorBlog/assets/js/8.2c2d121b.js"><link rel="prefetch" href="/kolorBlog/assets/js/9.98579e97.js">
+    <link rel="stylesheet" href="/kolorBlog/assets/css/0.styles.d765646a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/kolorBlog/" class="home-link router-link-active"><img src="/kolorBlog/kolor1.jpg" alt="kolor" class="logo"> <span class="site-name can-hide">kolor</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/kolorBlog/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端三剑客" class="dropdown-title"><span class="title">前端三剑客</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端三剑客" class="mobile-dropdown-title"><span class="title">前端三剑客</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/kolorBlog/HTML/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/kolorBlog/CSS/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/kolorBlog/JavaScript/" class="nav-link router-link-active">
+  JavaScript
+</a></li></ul></div></div><div class="nav-item"><a href="/kolorBlog/zrcd-ant/" class="nav-link">
+  zrcd-ant(文档)
+</a></div><div class="nav-item"><a href="http://www.github.com/wykolor" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/kolorBlog/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端三剑客" class="dropdown-title"><span class="title">前端三剑客</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端三剑客" class="mobile-dropdown-title"><span class="title">前端三剑客</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/kolorBlog/HTML/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/kolorBlog/CSS/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/kolorBlog/JavaScript/" class="nav-link router-link-active">
+  JavaScript
+</a></li></ul></div></div><div class="nav-item"><a href="/kolorBlog/zrcd-ant/" class="nav-link">
+  zrcd-ant(文档)
+</a></div><div class="nav-item"><a href="http://www.github.com/wykolor" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/kolorBlog/JavaScript/" aria-current="page" class="sidebar-link">类型转换</a></li><li><a href="/kolorBlog/JavaScript/this.html" class="sidebar-link">就不信搞不定 this</a></li><li><a href="/kolorBlog/JavaScript/arr.html" class="sidebar-link">数组</a></li><li><a href="/kolorBlog/JavaScript/precompile.html" class="sidebar-link">预编译</a></li><li><a href="/kolorBlog/JavaScript/recursion.html" class="sidebar-link">递归</a></li><li><a href="/kolorBlog/JavaScript/errorDesc.html" class="sidebar-link">错误信息描述</a></li><li><a href="/kolorBlog/JavaScript/dom.html" class="sidebar-link">节点</a></li><li><a href="/kolorBlog/JavaScript/browser.html" aria-current="page" class="active sidebar-link">chrome 浏览器的开发者工具</a></li><li><a href="/kolorBlog/JavaScript/algorithm.html" class="sidebar-link">数据结构和算法练习记录</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="chrome-浏览器的开发者工具"><a href="#chrome-浏览器的开发者工具" class="header-anchor">#</a> chrome 浏览器的开发者工具</h1> <blockquote><h4 id="_1-主面板介绍"><a href="#_1-主面板介绍" class="header-anchor">#</a> 1. 主面板介绍</h4></blockquote> <table><thead><tr><th>名称</th> <th>描述</th></tr></thead> <tbody><tr><td>Elements 面板</td> <td>可以查看 DOM 结构、编辑 CSS 样式，用于测试页面布局和设计页面</td></tr> <tr><td>Console 面板</td> <td>可以看成是 JavaScript Shell，能执行 JavaScript 脚本。通过 Console 还能和页面中的 JavaScript 对象进行交互</td></tr> <tr><td>Sources 面板</td> <td>1、查看 Web 应用加载的所有文件；2、编辑 CSS 和 JavaScript 的文件内容；3、将打乱的 CSS 文件或者 JavaScript 文件格式化；4、支持 JavaScript 的调试功能；5、设置工作区，将更改的文件保存在本地文件夹中。</td></tr> <tr><td>NetWork(网络)面板</td> <td>展示了页面中所有的请求内容列表，能查看每项请求的请求头、请求体、时间线以及网络请求瀑布图等信息</td></tr> <tr><td>Performance 面板</td> <td>记录和查看 Web 应用生命周期内的各种事件，bong 用来分析在执行过程的一些影响性能的要点</td></tr> <tr><td>Memory 面板</td> <td>用来查看运行过程中的 JavaScript 占用堆内存情况，追踪是否存在内存泄露的情况等</td></tr> <tr><td>Application(应用)面板</td> <td>查看 Web 应用的数据存储情况：PWA 的基础数据；IndexdDB；Web SQL；本地和会话存储；Cookie；应用程序缓存；图像；字体和样式等。</td></tr> <tr><td>Security(安全)面板</td> <td>显示当前页面的一些基础的安全信息</td></tr> <tr><td>Audits 面板</td> <td>会对当前的网页网络利用情况，网络性能方面的诊断，并给出一些优化建议。</td></tr> <tr><td>Layers 面板</td> <td>展示一些渲染过程中的分层的基础信息。</td></tr></tbody></table></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/kolorBlog/JavaScript/dom.html" class="prev">
+        节点
+      </a></span> <span class="next"><a href="/kolorBlog/JavaScript/algorithm.html">
+        数据结构和算法练习记录
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/kolorBlog/assets/js/app.722130f1.js" defer></script><script src="/kolorBlog/assets/js/2.d786c6f5.js" defer></script><script src="/kolorBlog/assets/js/15.b2fd23fc.js" defer></script>
+  </body>
+</html>
